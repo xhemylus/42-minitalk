@@ -82,6 +82,6 @@ int	main(int argc, char **argv)
 	signal(SIGWINCH, SIG_IGN);
 	while (1)
 		pause();
-	argv = 0;
+	(void)argv;
 	return (0);
 }
